@@ -24,12 +24,17 @@ body{
     align-items: center;
     min-height: 100vh;
     font-family: 'Oswald', sans-serif;
-    background-color: rgba(178, 228, 113, 0.699);
+    background-image: url(https://images.unsplash.com/photo-1517167685284-96a27681ad75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMGNvbG9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     size:content;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
 }
 html {
     scroll-behavior : smooth ;
@@ -86,9 +91,10 @@ hr{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    background-color: rgb(240, 176, 176);
+    background-color: rgba(245, 244, 244, 0.726);
     padding-top: 25px;
-    box-shadow: 4px 8px 8px rgba(14, 1, 1, 0.8);
+    box-shadow: 4px 8px 8px rgba(207, 204, 204, 0.9);
+   border: .1rem solid rgba(15, 1, 1, 0.9);
 }
 
 
